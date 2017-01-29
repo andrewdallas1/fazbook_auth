@@ -5,5 +5,8 @@
     "database": "fazbook_auth_development",
     "host": "127.0.0.1",
     "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "postgres://stkmbwfaiwcfgq:8a3be54960bd83abf1c9d9f7b1c096467b0f99603a9c968e3ca9b9419987880f@ec2-54-235-204-221.compute-1.amazonaws.com:5432/d9j8decb03dcuh"
   }
 }
